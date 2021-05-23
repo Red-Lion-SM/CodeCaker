@@ -1,12 +1,15 @@
 # CodeCaker
 <h1>Code Editor for Competitive Programmers 👨‍💻</h1>
-1. A C++/Python code editor. </br>
-2. Single click compile and run (used linux os.system calls)</br>
-3. Parse Input and Output from Codeforces problem by getting problem ID and contest ID. Now no need to copy all inputs one by one and run on each, in sigle click it fetches all input and all output, on run it compares the excepted output and code output and give result accordingly. This is implement using Beautiful Soup and requests.</br>
-4. Auto-Submit - On single click it submit the code on Codeforces so that you save your time. Implemented using Selenium driver.</br>
-5. Auto Compelete - It automatically detects the code and show suggestions for completion, this part is implemented using Trie Data Structure for better efficiency.</br>
-6. Auto Coloring - Color diffrent parts with diffrent colors to make better experience, this part is also implemented using Trie data structure.
- </br> </br>
+<p><font size = "11">
+A C++/Python code editor. </br>
+Single click compile and run (used linux <b><i>os.system calls</i></b>).</br>
+Parse Input and Output from Codeforces problem by getting problem ID and contest ID. Now no need to copy all inputs one by one and run on each, in sigle click  it fetches all input and all output, on run it compares the excepted output and code output and give result accordingly. This is implemented using <b><i>Beautiful Soup and Requests</i></b>.</br></br>
+<b>Auto-Submit</b> - </br>On single click it submit the code on Codeforces so that you save your time. Implemented using <b><i>Selenium driver</i></b>.</br></br>
+<b>Auto Compelete</b> - </br>It automatically detects the code and show suggestions for completion, this part is implemented using <b><i>Trie Data Structure</i></b> for better efficiency.</br></br>
+<b>Auto Coloring</b> - Color diffrent parts with diffrent colors to make better experience, this part is also implemented using Trie data structure.
+ </br></font>
+ </p>
+ </br>
  <a href="https://ibb.co/n1kYL9r"><img src="https://i.ibb.co/WzKM2Zn/Screenshot-from-2021-05-22-12-51-39.png" alt="Screenshot-from-2021-05-22-12-51-39" border="0"></a></br>
  
  <h2>Installation instructions - </h2> 
