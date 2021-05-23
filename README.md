@@ -21,14 +21,14 @@ On single click it <i>compile</i> and <i>run</i> the code, which will take input
  <h2>Installation instructions - </h2> 
  1. Download this project as ZIP file and extract somewhere. </br>
  2. Now Run this Command on linux terminal to use selenium - </br>
- &ensp;&ensp;&ensp;&ensp;<i><b>sudo pip3 install selenium</i></b></br>
+<i><b>sudo pip3 install selenium</i></b></br>
  4. Download chromedriver zip file according to your chrome version (you can check your chrome version on <i>chrome://version</i>) from here. </br>
  5. Go to chrome://version and copy the path given in heading of profile path and paste it in place of line:</br>
-    &ensp;&ensp;&ensp;&ensp;<i><b>options.add_argument("user-data-dir=/home/ankit/.config/google-chrome/Default")</b></i></br>&ensp;&ensp;&ensp;in main.py file.</br> 
+    <i><b>options.add_argument("user-data-dir=/home/ankit/.config/google-chrome/Default")</b></i></br>in main.py file.</br> 
     &ensp;&ensp;&ensp;Mention that profile path instead of <i>/home/USER/.config/google-chrome/Default</i>.</br>
  6. Get path of your chromedriver which you downloaded in pre-requisites and copy it in line:</br>
-    &ensp;&ensp;&ensp;<i>driver=webdriver.Chrome(executable_path='/home/ankit/Documents/chromedriver/chromedriver',chrome_options=options)</i></br>
-    &ensp;&ensp;&ensp;in main.py file. Mention your path instead of /home/ankit/Documents/chromedriver/chromedriver. </br>
+    <i>driver=webdriver.Chrome(executable_path='/home/ankit/Documents/chromedriver/chromedriver',chrome_options=options)</i></br>
+    in <i>main.py</i> file. Mention your path instead of /home/ankit/Documents/chromedriver/chromedriver.</br>
  7. Now just run the main.py file and enjoy. 🙂 </br></br>
 
 <h3> Please feel free to open a PR or submit an issue with your feedback!<h3>
